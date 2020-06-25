@@ -1,0 +1,16 @@
+PODS:
+  - NDAutolayoutUtils (0.0.2)
+
+DEPENDENCIES:
+  - NDAutolayoutUtils (from `../NDAutolayoutUtils`)
+
+EXTERNAL SOURCES:
+  NDAutolayoutUtils:
+    :path: "../NDAutolayoutUtils"
+
+SPEC CHECKSUMS:
+  NDAutolayoutUtils: 3fb9b7da9f755604989cf545103a4a77211bfaa0
+
+PODFILE CHECKSUM: 1e4e08583c2792a7786a4293576b7d8e173c04bf
+
+COCOAPODS: 1.9.1

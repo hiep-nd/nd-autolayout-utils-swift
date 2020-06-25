@@ -1,0 +1,6 @@
+framework module Pods_NDAutolayoutUtils_Swift_NDAutolayoutUtils_SwiftTests {
+  umbrella header "Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

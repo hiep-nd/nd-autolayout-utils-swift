@@ -1,0 +1,6 @@
+framework module NDAutolayoutUtils {
+  umbrella header "NDAutolayoutUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}
