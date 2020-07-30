@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NDAutolayoutUtils_Swift"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A small library for autolayout."
   s.description  = <<-DESC
   NDAutolayoutUtils_Swift is a small library for autolayout.
@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   
   s.source_files = 'NDAutolayoutUtils_Swift/**/*.{swift,h,m,mm}'
   s.framework = 'UIKit'
-  s.dependency 'NDAutolayoutUtils'
+  s.dependency 'NDAutolayoutUtils', '~> 0.0.4'
 end
