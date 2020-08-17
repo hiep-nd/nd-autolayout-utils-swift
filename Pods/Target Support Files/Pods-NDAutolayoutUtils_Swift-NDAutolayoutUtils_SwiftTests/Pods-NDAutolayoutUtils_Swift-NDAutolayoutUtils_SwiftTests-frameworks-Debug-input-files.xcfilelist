@@ -1,2 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests/Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/NDAutolayoutUtils/NDAutolayoutUtils.framework
+${BUILT_PRODUCTS_DIR}/NDLog/NDLog.framework
+${BUILT_PRODUCTS_DIR}/NDUtils/NDUtils.framework

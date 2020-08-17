@@ -15,6 +15,7 @@
 #import "NDCommonLayoutGuidesContainer.h"
 #import "UILayoutGuide+NDAutolayoutUtils.h"
 #import "UIView+NDAutolayoutUtils.h"
+#import "UIViewController+NDAutolayoutUtils.h"
 #import "VisualConstraintUtils.h"
 
 FOUNDATION_EXPORT double NDAutolayoutUtilsVersionNumber;

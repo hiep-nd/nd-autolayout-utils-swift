@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,8 @@
 		BA56478A24A457C300ABCD10 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BA56478524A457C300ABCD10 /* LICENSE */; };
 		BA56478B24A457C300ABCD10 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BA56478624A457C300ABCD10 /* README.md */; };
 		BA56478D24A458AD00ABCD10 /* VisualConstraintUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA56478C24A458AD00ABCD10 /* VisualConstraintUtils.swift */; };
+		BA634BC724EA7693006567BB /* UIViewController+NDAutolayoutUtils_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA634BC524EA7693006567BB /* UIViewController+NDAutolayoutUtils_Swift.swift */; };
+		BA634BC824EA7693006567BB /* UIView+NDAutolayoutUtils_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA634BC624EA7693006567BB /* UIView+NDAutolayoutUtils_Swift.swift */; };
 		C89087A8469DAAC37C1CFA4A /* Pods_NDAutolayoutUtils_Swift_NDAutolayoutUtils_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76408DC11FDDB3D3D2BDEFB2 /* Pods_NDAutolayoutUtils_Swift_NDAutolayoutUtils_SwiftTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,8 @@
 		BA56478524A457C300ABCD10 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BA56478624A457C300ABCD10 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BA56478C24A458AD00ABCD10 /* VisualConstraintUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualConstraintUtils.swift; sourceTree = "<group>"; };
+		BA634BC524EA7693006567BB /* UIViewController+NDAutolayoutUtils_Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+NDAutolayoutUtils_Swift.swift"; sourceTree = "<group>"; };
+		BA634BC624EA7693006567BB /* UIView+NDAutolayoutUtils_Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+NDAutolayoutUtils_Swift.swift"; sourceTree = "<group>"; };
 		F5C7B189AAB368E0D243F704 /* Pods-NDAutolayoutUtils_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NDAutolayoutUtils_Swift.release.xcconfig"; path = "Target Support Files/Pods-NDAutolayoutUtils_Swift/Pods-NDAutolayoutUtils_Swift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,7 +84,6 @@
 				20E2D0A8EE31BC0C00B58A29 /* Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests.debug.xcconfig */,
 				39BBAB9BB27B295174286B2D /* Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -112,6 +115,8 @@
 			children = (
 				BA56476A24A456DA00ABCD10 /* NDAutolayoutUtils_Swift.h */,
 				BA56478C24A458AD00ABCD10 /* VisualConstraintUtils.swift */,
+				BA634BC624EA7693006567BB /* UIView+NDAutolayoutUtils_Swift.swift */,
+				BA634BC524EA7693006567BB /* UIViewController+NDAutolayoutUtils_Swift.swift */,
 				BA56476B24A456DA00ABCD10 /* Info.plist */,
 			);
 			path = NDAutolayoutUtils_Swift;
@@ -330,6 +335,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA56478D24A458AD00ABCD10 /* VisualConstraintUtils.swift in Sources */,
+				BA634BC824EA7693006567BB /* UIView+NDAutolayoutUtils_Swift.swift in Sources */,
+				BA634BC724EA7693006567BB /* UIViewController+NDAutolayoutUtils_Swift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

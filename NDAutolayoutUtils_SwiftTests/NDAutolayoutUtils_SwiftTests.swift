@@ -14,4 +14,11 @@ class NDAutolayoutUtils_SwiftTests: XCTestCase {
   func testApply() {
     nd_apply(views: ["view": UIView()], ratios: ["view": 1])
   }
+
+  func testExample() throws {
+    let parent = UIView()
+    let view = UIView()
+    parent.nd_add(
+      subviews: [view], translatesAutoresizingMaskIntoConstraints: true)
+  }
 }
