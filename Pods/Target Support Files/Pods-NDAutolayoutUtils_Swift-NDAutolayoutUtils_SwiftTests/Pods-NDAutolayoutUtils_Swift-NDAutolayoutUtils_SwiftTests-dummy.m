@@ -1,5 +1,7 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_NDAutolayoutUtils_Swift_NDAutolayoutUtils_SwiftTests : NSObject
+@interface PodsDummy_Pods_NDAutolayoutUtils_Swift_NDAutolayoutUtils_SwiftTests
+    : NSObject
 @end
-@implementation PodsDummy_Pods_NDAutolayoutUtils_Swift_NDAutolayoutUtils_SwiftTests
+@implementation
+    PodsDummy_Pods_NDAutolayoutUtils_Swift_NDAutolayoutUtils_SwiftTests
 @end
