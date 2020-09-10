@@ -10,6 +10,7 @@
 #endif
 #endif
 
+
 FOUNDATION_EXPORT double Pods_NDAutolayoutUtils_SwiftVersionNumber;
-FOUNDATION_EXPORT const unsigned char
-    Pods_NDAutolayoutUtils_SwiftVersionString[];
+FOUNDATION_EXPORT const unsigned char Pods_NDAutolayoutUtils_SwiftVersionString[];
+
