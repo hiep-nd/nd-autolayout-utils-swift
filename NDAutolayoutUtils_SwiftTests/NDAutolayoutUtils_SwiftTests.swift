@@ -12,7 +12,7 @@ import XCTest
 
 class NDAutolayoutUtils_SwiftTests: XCTestCase {
   func testApply() {
-    nd_apply(views: ["view": UIView()], ratios: ["view": 1])
+    nd_apply(items: ["view": UIView()], ratios: ["view": 1])
   }
 
   func testExample() throws {
@@ -20,5 +20,6 @@ class NDAutolayoutUtils_SwiftTests: XCTestCase {
     let view = UIView()
     parent.nd_add(
       subviews: [view], translatesAutoresizingMaskIntoConstraints: true)
+    parent.nd_add(items: [UIView(), UILayoutGuide()])
   }
 }

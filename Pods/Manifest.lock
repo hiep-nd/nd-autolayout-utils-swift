@@ -1,10 +1,10 @@
 PODS:
-  - NDAutolayoutUtils (0.0.5):
+  - NDAutolayoutUtils (0.0.6):
     - NDLog (~> 0.0.5)
-    - NDUtils/Foundation (~> 0.0.4)
+    - NDUtils/Foundation (~> 0.0.5)
   - NDLog (0.0.5)
-  - NDUtils/Core (0.0.4)
-  - NDUtils/Foundation (0.0.4):
+  - NDUtils/Core (0.0.5)
+  - NDUtils/Foundation (0.0.5):
     - NDLog (~> 0.0.5)
     - NDUtils/Core
 
@@ -22,9 +22,9 @@ EXTERNAL SOURCES:
     :path: "../NDUtils"
 
 SPEC CHECKSUMS:
-  NDAutolayoutUtils: f8c33d41b4bba1e0e44309ee82f8b1906c5f0b9f
+  NDAutolayoutUtils: 82323887449a0a95b57ca0b9b1b3e6eafec57711
   NDLog: 2d478a5bc74f17ee56fea08adb6dacdaa36a07e6
-  NDUtils: e44d6272ae161c0a03689d1b8b4359a82ba716ef
+  NDUtils: b0488c7c26d88ad58d20423f76b16b00afeba605
 
 PODFILE CHECKSUM: 5bcf3cbabf62e2f1b14c6d1605730b290b95a5d7
 

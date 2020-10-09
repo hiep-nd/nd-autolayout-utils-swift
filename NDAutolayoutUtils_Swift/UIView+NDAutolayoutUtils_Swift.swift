@@ -9,6 +9,7 @@
 import NDAutolayoutUtils
 
 extension UIView {
+  @inlinable
   public func nd_add(
     subviews: [UIView],
     translatesAutoresizingMaskIntoConstraints translates: Bool?
@@ -18,4 +19,16 @@ extension UIView {
       translatesAutoresizingMaskIntoConstraints:
         translates == nil ? nil : NSNumber(value: translates!))
   }
+
+  @inlinable
+  public func nd_add(
+    items: [NDNSLayoutConstraintItemProtocol],
+    translatesAutoresizingMaskIntoConstraints translates: Bool?
+  ) {
+    __nd_add(
+      items,
+      translatesAutoresizingMaskIntoConstraints: translates == nil
+        ? nil : NSNumber(value: translates!))
+  }
+
 }

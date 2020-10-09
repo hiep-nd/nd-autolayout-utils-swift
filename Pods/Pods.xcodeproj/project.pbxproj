@@ -7,61 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		033E6B8D5E7CEA48F15113DC14CE0E7E /* NSString+NDUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 873617431ED1AD67D92FAB75FED79698 /* NSString+NDUtils.mm */; };
-		05BEB4D38CAEC54FABA5E4C8908DF910 /* NSString+NDUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B850EB630E3AF74ADDE23683761615F /* NSString+NDUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		079C1B0040A5F49763BBF6A68C9E1FDC /* VisualConstraintUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 85F524561736E62FECC96B78C2204205 /* VisualConstraintUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E4E80AA320BD5DAF831843258A82AC4 /* VisualConstraintUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = FD90170B4C5B67834AED1C24EFC4C60E /* VisualConstraintUtils.mm */; };
-		1B8258F0428F570A7C9C91A4C48E3C4C /* NDCommonLayoutGuidesContainerUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 156CC87E46D38FE6BB84010198458F6F /* NDCommonLayoutGuidesContainerUtils.mm */; };
-		1E52FFB0CD97D16706526309F82A9CF5 /* NDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 1664B342D4CBD217CCB3B965E5BD3340 /* NDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25881C07AEE590D4AFCCB047F6C3A7C2 /* NSObject+NDUtils_Foundation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2C065A74356EB8138037C5425BCE75BB /* NSObject+NDUtils_Foundation.mm */; };
-		29864A44E6B3F83427CEE840E917C52F /* ClassicalConstraintUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 66415E342754A9BDEAB19EA586B501F0 /* ClassicalConstraintUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B5903D918F09D0C8A235E19938CB38F /* NDCommonLayoutGuidesContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 77C0EA531DCCD4B1C3B106AE9DC446FA /* NDCommonLayoutGuidesContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2FCC049530C30961B2EE87FDC4D2AF8A /* NSObject+NDUtils_Foundation.h in Headers */ = {isa = PBXBuildFile; fileRef = BE318BD01CE0848EA52CD9AB0BFC1FD3 /* NSObject+NDUtils_Foundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EE208EDA64CDDA9459895A0C5651315 /* UIViewController+NDAutolayoutUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5D337006C4EDD5B45311D79F38C43B31 /* UIViewController+NDAutolayoutUtils.mm */; };
+		127A8E6DC516EDABF313F6B3E369B2CC /* NDAutolayoutUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F0797CB6914A3C94E25A35E87E404 /* NDAutolayoutUtils-dummy.m */; };
+		18CA1E188557BDCAEB5F7B4E3065DA21 /* NDAutolayoutUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFF7539817C6273486F4E47691F1A09 /* NDAutolayoutUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C9BEB55E28FAA1B604528465CA409F6 /* NDUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E28F6B434CC2E0A59FC480E34AF3CE1 /* NDUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21AA7846458DF7C9F3FA1FD43EDA0E25 /* NDLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB4AEEF93F7B35A0DED81B39DB26C97 /* NDLog-dummy.m */; };
+		222DDE24CB1BD333BA6DB853C6564028 /* NSFastEnumeration+NDUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CC43A951283C82F75DBC016ACD9CCD11 /* NSFastEnumeration+NDUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		246283F51BD7EFDC5C24BEB85A37BCDA /* NSString+NDUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8E6D6526A07CADB2F2788ED4DE9FED /* NSString+NDUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B3B433B2D0971F443181918F33FE437 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12286A9CADB7A738506D81724CBEFC6 /* Foundation.framework */; };
+		2F86B73C13BEA58313EC67BF603F98B4 /* NDVisualConstraintUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CD33A40A1E15FA1F989ACA7B4B85C4C /* NDVisualConstraintUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3870053BD572C6DAE02B737658EE55EB /* NDNSLayoutConstraintItemUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = F3A3B26CD54CF1735F605D164868BA59 /* NDNSLayoutConstraintItemUtils.mm */; };
+		3A08010426A4DF09CF6D268EBF550144 /* NDUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC04C91A24F5AC25F23721F1069050F /* NDUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E590809AA31AB5876080651779E1AA4 /* NDAutolayoutUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6639F1F109FAB457A5F6A3464B069AD /* NDAutolayoutUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		435035B49EB5D090C27F5041153329D7 /* NDClassicalConstraintUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D2AFDC771DBCF208B79E80BF6D1AD03 /* NDClassicalConstraintUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FE21ACA3B5AF34B5C734E4AC62A0788 /* Pods-NDAutolayoutUtils_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58760A07604F691582457AB894AA285B /* Pods-NDAutolayoutUtils_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5130DCAB2826C8F278E5599CF316F1CF /* NDAutolayoutUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B272CB3382DD9AD550E271A8A10B73 /* NDAutolayoutUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53FB74275A4C31098F08CCFC2F523E4B /* Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A7314BA052E9EE983891F76081A186 /* Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests-dummy.m */; };
-		62A7C31491074018CBE0E7B30184CC62 /* UIView+NDAutolayoutUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A7FF8AA428CA17322577DBBEEFD4CFD0 /* UIView+NDAutolayoutUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73833B833FCFCD3BF4BA64D4BEB0BE44 /* NDLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859630A4E6DC398EAD5127DBD819F2D6 /* NDLog.framework */; };
-		785CBB388346816DCE59521A385BDCF0 /* NDLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859630A4E6DC398EAD5127DBD819F2D6 /* NDLog.framework */; };
-		81D71A2AEAD94CC2F0DA1329EC4D61E4 /* NSFastEnumeration+NDUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C6DEFF7E7F26B760F3A857DE3D609 /* NSFastEnumeration+NDUtils.mm */; };
-		86E0BFAA2B16D59F1354276045BC53A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12286A9CADB7A738506D81724CBEFC6 /* Foundation.framework */; };
-		8FDA9DF6F14341B561F006F35C812BF8 /* NDLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 662EA79EC47515DF0F8FE610BD9D2ACD /* NDLog-dummy.m */; };
-		99307F365F3E4AF621673BD13BE534C5 /* NDAutolayoutUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F49C92BBB0F1ADB30A567DB440310E34 /* NDAutolayoutUtils-dummy.m */; };
-		9A739F740468E97DD9DFA93A50A016CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B80914B9470596FBB56333321822E9A /* UIKit.framework */; };
-		9B7C82AB2E54C15A21AF272D48F6855C /* NSFastEnumeration+NDUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4120C4FC3CDB0332E1EFD1D44348A727 /* NSFastEnumeration+NDUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9E990DD42C501824AE153B6973349CD /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = 939CFF2525B7F22758EE17758C95B31A /* Log.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC5CDFDCBE1791285A8DF2B25677A46F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12286A9CADB7A738506D81724CBEFC6 /* Foundation.framework */; };
-		B82549C91D13EB5DECBCC269B97A1E34 /* NDAutolayoutUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D2DEE05140DAC795968DDD0AA1E573 /* NDAutolayoutUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BABD4CECCE7F95BBD0342C6D09841A7F /* UIViewController+NDAutolayoutUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D55B7196202B15176DFA35AC9654531 /* UIViewController+NDAutolayoutUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DED01B1BCA0004DEEA22C94159BA936 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12286A9CADB7A738506D81724CBEFC6 /* Foundation.framework */; };
+		66D45A1431C7C572D853FA84D76DBA36 /* NDLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859630A4E6DC398EAD5127DBD819F2D6 /* NDLog.framework */; };
+		6DE7B6266298A453953EC2C19F54E9FB /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = DA7CFF651104AB417C0492C531D04D70 /* Log.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71DE607B14A968EF51D4D1ED611FBE8E /* NSFastEnumeration+NDUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 35A9B7FDA3C994A1048444792ED0DACF /* NSFastEnumeration+NDUtils.mm */; };
+		81282387AA0C37CA57AE0BB3A92780F6 /* NDLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE97D4362A7A40689232408A9C9DCDD /* NDLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87CE3C79E301ABEA6EC9B386B3434E86 /* NDVisualConstraintUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03505AC8CE64F8DACAE41BCA6AD849F8 /* NDVisualConstraintUtils.mm */; };
+		89498748C135DFAF28AB96A8F8689394 /* NDNSLayoutConstraintItemUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F42468706570126E12BB731C67784D /* NDNSLayoutConstraintItemUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8AAFD017BD5C7B8D44DDACAB20BBEDC7 /* UIView+NDAutolayoutUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FCC6A937AC6E5C023A3D7430A916992 /* UIView+NDAutolayoutUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C2A84BAB6D14DB263AE0B2C96AF15C2 /* Log.mm in Sources */ = {isa = PBXBuildFile; fileRef = D8A580D23ECCBA03FBEDC76A3237E52A /* Log.mm */; };
+		9455928EF689948EBAF1F7B51888AAF8 /* NSObject+NDUtils_Foundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CFDAEE83D768ED0880D952278E72C1A /* NSObject+NDUtils_Foundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D341EF61A684D6EEB73A0E6A9B0070A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B80914B9470596FBB56333321822E9A /* UIKit.framework */; };
+		B2BDB273DC3FD2C5CA65118ABAE6E60F /* NDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC8688802BA67C0977CE6FA66CB01C5 /* NDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B695D9DE9B068F08E716FD79B8038E48 /* NDNSLayoutConstraintItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 38F787D2ABDF1FCE723268D6E696D351 /* NDNSLayoutConstraintItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE4BC891B682472D2595332BB2207BF8 /* Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FCF11620BAE31F2CA729F382E03DC3 /* Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE8795AD53CE128FE876737F26AD8AF1 /* NDLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF63DD8FD522FA265D987893CAEA847 /* NDLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C11A0B33FFC19CDA2700290815A6F9C6 /* NDUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F200C07B79DD6DB3E3089C9AEF112E /* NDUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2D9B2B18D06A89E3EF0E5556BB52620 /* NDUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D681BE32A4129E6E67226D0A396A7B4 /* NDUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4F07CEDA048E4A7024AF691BD739B80 /* ClassicalConstraintUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 14A3C3FC93E3CDE4B8BE23023E1921F6 /* ClassicalConstraintUtils.mm */; };
+		BEF5CF0BA38C7244D587B8A108DF9A57 /* Foundation+NDUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A0D9CA4EE186426799ABDAEA151FEE1B /* Foundation+NDUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C004A7A6A09A8E51B695734917B18C54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12286A9CADB7A738506D81724CBEFC6 /* Foundation.framework */; };
+		C62E7C720FD9D38AD1D6D1BEB1276C80 /* NSObject+NDUtils_Foundation.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6CACF61F40EBBAE2074C0F47E5D1B17 /* NSObject+NDUtils_Foundation.mm */; };
+		C725D6F20DCEA9BED428BC34F5E43840 /* UIViewController+NDAutolayoutUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 75A4C1BA2BA08D59276F9F1C63CEC8C4 /* UIViewController+NDAutolayoutUtils.mm */; };
 		CB7E36D98493B1FE3D50C2A2EDF9264D /* Pods-NDAutolayoutUtils_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D3028B114C3219FB0989461A90001D /* Pods-NDAutolayoutUtils_Swift-dummy.m */; };
-		CFFE2F17E5DA24079760E5BDF00FB0D4 /* NDUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFBD8C302508941924120DC3EFEF685 /* NDUtils-dummy.m */; };
-		DF84C9EA72FD772AEC14F40AD879F9BD /* UILayoutGuide+NDAutolayoutUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4E020A89A043F7315C15A110CE5552F /* UILayoutGuide+NDAutolayoutUtils.mm */; };
-		DFA5BCE8A12E8BF10DFB39B7606DE7F0 /* NDCommonLayoutGuidesContainerUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D9F9E882D71D75BD4CE1DDB96D1973 /* NDCommonLayoutGuidesContainerUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E27663BD32DCF6D639269681D91A20D0 /* Foundation+NDUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B17969C73D16749289AB16047D3A0F8 /* Foundation+NDUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F197CFBF7CF6B86608F6DE3614EF1682 /* Log.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D4BF1FC4DFC880B3B2072EABAFAF669 /* Log.mm */; };
+		CEB2F149731F56D4B829F2439B52E946 /* UIView+NDAutolayoutUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF0369A8D5917D3127207850DD4CB15F /* UIView+NDAutolayoutUtils.mm */; };
+		CF4D740BE7140A5C14AF0FA62D858381 /* NDLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859630A4E6DC398EAD5127DBD819F2D6 /* NDLog.framework */; };
+		CFDFA827E713CA034598188C01A31AC6 /* NDNSLayoutConstraintItem.mm in Sources */ = {isa = PBXBuildFile; fileRef = E44358E51B0AD588BC0DE1C679815CD5 /* NDNSLayoutConstraintItem.mm */; };
+		D6882E69ECCDEE1181F29AF749FA2776 /* NSString+NDUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = B17EC8648861AE71070AF795F5643317 /* NSString+NDUtils.mm */; };
+		DBD2E68B7FD32115C272933E6A10E5C9 /* NDUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B404938C4D7115260BC67446E1B6643A /* NDUtils-dummy.m */; };
+		DD21D52F758CDB69D715B30F72DADB0E /* NDClassicalConstraintUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7653839A45097BE88D09DCD3AC2E9C1B /* NDClassicalConstraintUtils.mm */; };
+		E8C36CCC27D5F5DEB0AFE36C0E010536 /* UIViewController+NDAutolayoutUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 756EF297D550FFF57D9979C296008254 /* UIViewController+NDAutolayoutUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5E486962C59E4BA7907079EB05CD02D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12286A9CADB7A738506D81724CBEFC6 /* Foundation.framework */; };
 		F823DB4F9EF48F1EF4B41346A9B89F25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12286A9CADB7A738506D81724CBEFC6 /* Foundation.framework */; };
-		F8C871D0BFA5726D250AAC67DF92EEEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12286A9CADB7A738506D81724CBEFC6 /* Foundation.framework */; };
-		FA4AD5F7B056C5618A4F23EF64B988F8 /* NDUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2CF6E127990267DFEB3BCCD48AD5FB4 /* NDUtils.framework */; };
-		FACA1644906518E38CA2C43B82500D62 /* UIView+NDAutolayoutUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9303DCD884095FB033E436DF34790AA3 /* UIView+NDAutolayoutUtils.mm */; };
-		FF99B038E322FF1D6FA4448888093413 /* UILayoutGuide+NDAutolayoutUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 003D5F8A0805800A97BA4AAFBDFC95CD /* UILayoutGuide+NDAutolayoutUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE0620721B120C5B52332809F7CF2697 /* NDUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2CF6E127990267DFEB3BCCD48AD5FB4 /* NDUtils.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		146C1B822AE590DDE67CCB46C6E6FC05 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E743EC9024721B262CA9F180BD3AFF19;
-			remoteInfo = NDUtils;
-		};
-		454B2B5415BEDCF89CC678ED5F878E4B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -89,7 +81,14 @@
 			remoteGlobalIDString = E743EC9024721B262CA9F180BD3AFF19;
 			remoteInfo = NDUtils;
 		};
-		A66B4156D4D4E1C0A412C207E6BB1714 /* PBXContainerItemProxy */ = {
+		5A161396A1E36DC52A3647177D5B67D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E743EC9024721B262CA9F180BD3AFF19;
+			remoteInfo = NDUtils;
+		};
+		8B664578EF15E72ED847209DDFB0CBC2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -103,7 +102,7 @@
 			remoteGlobalIDString = 5860BED33EF9D27378704EB0C10FD6C5;
 			remoteInfo = NDLog;
 		};
-		B228379680CAEF7C63E37C0266F36D28 /* PBXContainerItemProxy */ = {
+		B28E49870243BD72E46F313BB15CA711 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -120,96 +119,96 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		003D5F8A0805800A97BA4AAFBDFC95CD /* UILayoutGuide+NDAutolayoutUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILayoutGuide+NDAutolayoutUtils.h"; path = "NDAutolayoutUtils/UILayoutGuide+NDAutolayoutUtils.h"; sourceTree = "<group>"; };
-		0CFCFDDFC08560DE56CDCD0635033DF9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		14A3C3FC93E3CDE4B8BE23023E1921F6 /* ClassicalConstraintUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = ClassicalConstraintUtils.mm; path = NDAutolayoutUtils/ClassicalConstraintUtils.mm; sourceTree = "<group>"; };
-		156CC87E46D38FE6BB84010198458F6F /* NDCommonLayoutGuidesContainerUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = NDCommonLayoutGuidesContainerUtils.mm; sourceTree = "<group>"; };
-		15B272CB3382DD9AD550E271A8A10B73 /* NDAutolayoutUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NDAutolayoutUtils-umbrella.h"; sourceTree = "<group>"; };
-		1664B342D4CBD217CCB3B965E5BD3340 /* NDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NDLog.h; path = NDLog/NDLog.h; sourceTree = "<group>"; };
+		03505AC8CE64F8DACAE41BCA6AD849F8 /* NDVisualConstraintUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = NDVisualConstraintUtils.mm; path = NDAutolayoutUtils/NDVisualConstraintUtils.mm; sourceTree = "<group>"; };
+		03CF1174E138C6E1B32139E0207FA52E /* NDUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NDUtils.modulemap; sourceTree = "<group>"; };
+		0883E45C21DE0E52108E743493C4F5C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		09400D66FE5E60531D36BBB9F214E52F /* NDAutolayoutUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NDAutolayoutUtils.debug.xcconfig; sourceTree = "<group>"; };
+		0CD33A40A1E15FA1F989ACA7B4B85C4C /* NDVisualConstraintUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NDVisualConstraintUtils.h; path = NDAutolayoutUtils/NDVisualConstraintUtils.h; sourceTree = "<group>"; };
+		0FCC6A937AC6E5C023A3D7430A916992 /* UIView+NDAutolayoutUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+NDAutolayoutUtils.h"; path = "NDAutolayoutUtils/UIView+NDAutolayoutUtils.h"; sourceTree = "<group>"; };
+		175F933051D1FE3F53224E35D539A976 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		19F42468706570126E12BB731C67784D /* NDNSLayoutConstraintItemUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NDNSLayoutConstraintItemUtils.h; sourceTree = "<group>"; };
+		1BB4AEEF93F7B35A0DED81B39DB26C97 /* NDLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NDLog-dummy.m"; sourceTree = "<group>"; };
 		1C2AA3939D65DDC9B5B884B8A2BB2992 /* NDUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NDUtils.framework; path = NDUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		26D0A99AFE1A5B0AD4B8289E4B1D9D1B /* NDAutolayoutUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NDAutolayoutUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1CC8688802BA67C0977CE6FA66CB01C5 /* NDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NDLog.h; path = NDLog/NDLog.h; sourceTree = "<group>"; };
+		1E6F0797CB6914A3C94E25A35E87E404 /* NDAutolayoutUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NDAutolayoutUtils-dummy.m"; sourceTree = "<group>"; };
+		22A7815ABF150FDEB2A6E3367B5F5123 /* NDUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NDUtils.release.xcconfig; sourceTree = "<group>"; };
 		26D3028B114C3219FB0989461A90001D /* Pods-NDAutolayoutUtils_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NDAutolayoutUtils_Swift-dummy.m"; sourceTree = "<group>"; };
-		28D9F9E882D71D75BD4CE1DDB96D1973 /* NDCommonLayoutGuidesContainerUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NDCommonLayoutGuidesContainerUtils.h; sourceTree = "<group>"; };
-		2B850EB630E3AF74ADDE23683761615F /* NSString+NDUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+NDUtils.h"; path = "NDUtils/Foundation/NSString+NDUtils.h"; sourceTree = "<group>"; };
-		2C065A74356EB8138037C5425BCE75BB /* NSObject+NDUtils_Foundation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "NSObject+NDUtils_Foundation.mm"; path = "NDUtils/Foundation/NSObject+NDUtils_Foundation.mm"; sourceTree = "<group>"; };
-		2D4BF1FC4DFC880B3B2072EABAFAF669 /* Log.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = Log.mm; path = NDLog/Log.mm; sourceTree = "<group>"; };
 		2FA31B6D8EEEE2C39FFA86FAD7B8F49C /* Pods-NDAutolayoutUtils_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NDAutolayoutUtils_Swift.release.xcconfig"; sourceTree = "<group>"; };
-		3055D245559A9C1AB3646CDDA531B633 /* NDUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NDUtils-Info.plist"; sourceTree = "<group>"; };
+		35A9B7FDA3C994A1048444792ED0DACF /* NSFastEnumeration+NDUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "NSFastEnumeration+NDUtils.mm"; path = "NDUtils/Foundation/NSFastEnumeration+NDUtils.mm"; sourceTree = "<group>"; };
+		38F787D2ABDF1FCE723268D6E696D351 /* NDNSLayoutConstraintItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NDNSLayoutConstraintItem.h; path = NDAutolayoutUtils/NDNSLayoutConstraintItem.h; sourceTree = "<group>"; };
 		3CB4D81256D6F854A0FE3C7A2CB0C06C /* Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4120C4FC3CDB0332E1EFD1D44348A727 /* NSFastEnumeration+NDUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFastEnumeration+NDUtils.h"; path = "NDUtils/Foundation/NSFastEnumeration+NDUtils.h"; sourceTree = "<group>"; };
-		429FD50649A820BB81328C59AAAB5A7D /* NDLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NDLog.modulemap; sourceTree = "<group>"; };
+		3CFDAEE83D768ED0880D952278E72C1A /* NSObject+NDUtils_Foundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+NDUtils_Foundation.h"; path = "NDUtils/Foundation/NSObject+NDUtils_Foundation.h"; sourceTree = "<group>"; };
+		3D2AFDC771DBCF208B79E80BF6D1AD03 /* NDClassicalConstraintUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NDClassicalConstraintUtils.h; path = NDAutolayoutUtils/NDClassicalConstraintUtils.h; sourceTree = "<group>"; };
 		42A82D049C397AAC0E955E7CAD5EFC65 /* Pods-NDAutolayoutUtils_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NDAutolayoutUtils_Swift.modulemap"; sourceTree = "<group>"; };
-		45D2DEE05140DAC795968DDD0AA1E573 /* NDAutolayoutUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NDAutolayoutUtils.h; path = NDAutolayoutUtils/NDAutolayoutUtils.h; sourceTree = "<group>"; };
+		43C08044B0C564E44120A1A896E39BA3 /* NDAutolayoutUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NDAutolayoutUtils-Info.plist"; sourceTree = "<group>"; };
 		46D610865CC15F10CC0FDC7870B136DB /* Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
-		4B17969C73D16749289AB16047D3A0F8 /* Foundation+NDUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Foundation+NDUtils.h"; path = "NDUtils/Foundation/Foundation+NDUtils.h"; sourceTree = "<group>"; };
 		4E5DBD7A3FE8AA2B456005E2C2E50D3C /* NDLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NDLog.framework; path = NDLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		508F6CF05F46DF164E97B1DE5DF979C6 /* NDAutolayoutUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NDAutolayoutUtils.modulemap; sourceTree = "<group>"; };
 		5260928D89FD194D07D9A3A336EE97E1 /* Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests-frameworks.sh"; sourceTree = "<group>"; };
-		53AF5B04A004D2007B029A2434E59ECF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		55A7314BA052E9EE983891F76081A186 /* Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests-dummy.m"; sourceTree = "<group>"; };
 		58760A07604F691582457AB894AA285B /* Pods-NDAutolayoutUtils_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NDAutolayoutUtils_Swift-umbrella.h"; sourceTree = "<group>"; };
-		5D337006C4EDD5B45311D79F38C43B31 /* UIViewController+NDAutolayoutUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "UIViewController+NDAutolayoutUtils.mm"; path = "NDAutolayoutUtils/UIViewController+NDAutolayoutUtils.mm"; sourceTree = "<group>"; };
-		5D55B7196202B15176DFA35AC9654531 /* UIViewController+NDAutolayoutUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+NDAutolayoutUtils.h"; path = "NDAutolayoutUtils/UIViewController+NDAutolayoutUtils.h"; sourceTree = "<group>"; };
-		60B1C2FA549AD1F7DDE34A153D636FFC /* NDUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NDUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		634F4DA6AEE95BE25B169918C8FBE837 /* NDLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NDLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		662EA79EC47515DF0F8FE610BD9D2ACD /* NDLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NDLog-dummy.m"; sourceTree = "<group>"; };
-		66415E342754A9BDEAB19EA586B501F0 /* ClassicalConstraintUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClassicalConstraintUtils.h; path = NDAutolayoutUtils/ClassicalConstraintUtils.h; sourceTree = "<group>"; };
-		68633B71A3CC36FCCF12DFFF52D54AE0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		643D793C3D3D234980B3237D7C5F3527 /* NDUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NDUtils.debug.xcconfig; sourceTree = "<group>"; };
+		65695330A1D8FCA5F3A0FDF482920A6A /* NDAutolayoutUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NDAutolayoutUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6B2B3C51DD009D372017D474DFCDEA1C /* Pods_NDAutolayoutUtils_Swift_NDAutolayoutUtils_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NDAutolayoutUtils_Swift_NDAutolayoutUtils_SwiftTests.framework; path = "Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B339FAAB17BC09DE79F30F5FBCACAE9 /* Pods-NDAutolayoutUtils_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NDAutolayoutUtils_Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		6B80914B9470596FBB56333321822E9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		77C0EA531DCCD4B1C3B106AE9DC446FA /* NDCommonLayoutGuidesContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NDCommonLayoutGuidesContainer.h; path = NDAutolayoutUtils/NDCommonLayoutGuidesContainer.h; sourceTree = "<group>"; };
-		797D9CB28A6AC4AD2BECDCC852D1D5E5 /* NDUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NDUtils.debug.xcconfig; sourceTree = "<group>"; };
-		8293DA0477AE088C81AF7D58195F529E /* NDAutolayoutUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NDAutolayoutUtils.debug.xcconfig; sourceTree = "<group>"; };
-		830135913C89557FFEC64372D408D0EC /* NDLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NDLog.debug.xcconfig; sourceTree = "<group>"; };
+		6EE97D4362A7A40689232408A9C9DCDD /* NDLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NDLog-umbrella.h"; sourceTree = "<group>"; };
+		7496ED798B0C3E85B5D793817E585F02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		756EF297D550FFF57D9979C296008254 /* UIViewController+NDAutolayoutUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+NDAutolayoutUtils.h"; path = "NDAutolayoutUtils/UIViewController+NDAutolayoutUtils.h"; sourceTree = "<group>"; };
+		75A4C1BA2BA08D59276F9F1C63CEC8C4 /* UIViewController+NDAutolayoutUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "UIViewController+NDAutolayoutUtils.mm"; path = "NDAutolayoutUtils/UIViewController+NDAutolayoutUtils.mm"; sourceTree = "<group>"; };
+		7653839A45097BE88D09DCD3AC2E9C1B /* NDClassicalConstraintUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = NDClassicalConstraintUtils.mm; path = NDAutolayoutUtils/NDClassicalConstraintUtils.mm; sourceTree = "<group>"; };
+		7D3EF56188DA48565973B1922F522EB5 /* NDUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NDUtils-prefix.pch"; sourceTree = "<group>"; };
+		7DC5BA2BEB4F8277CF47229509377B18 /* NDLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NDLog.release.xcconfig; sourceTree = "<group>"; };
+		80CAEC855C6CD042327876F68D81DB8C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		859630A4E6DC398EAD5127DBD819F2D6 /* NDLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NDLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		85F524561736E62FECC96B78C2204205 /* VisualConstraintUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VisualConstraintUtils.h; path = NDAutolayoutUtils/VisualConstraintUtils.h; sourceTree = "<group>"; };
-		873617431ED1AD67D92FAB75FED79698 /* NSString+NDUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "NSString+NDUtils.mm"; path = "NDUtils/Foundation/NSString+NDUtils.mm"; sourceTree = "<group>"; };
-		88F200C07B79DD6DB3E3089C9AEF112E /* NDUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NDUtils.h; path = NDUtils/NDUtils.h; sourceTree = "<group>"; };
+		878A425543093EDDC8959B4B34B3B8EB /* NDUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NDUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8B32B9CB9DC84FEB9FACEC9E30AA860C /* Pods-NDAutolayoutUtils_Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NDAutolayoutUtils_Swift-Info.plist"; sourceTree = "<group>"; };
-		8D5C6DEFF7E7F26B760F3A857DE3D609 /* NSFastEnumeration+NDUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "NSFastEnumeration+NDUtils.mm"; path = "NDUtils/Foundation/NSFastEnumeration+NDUtils.mm"; sourceTree = "<group>"; };
-		9303DCD884095FB033E436DF34790AA3 /* UIView+NDAutolayoutUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "UIView+NDAutolayoutUtils.mm"; path = "NDAutolayoutUtils/UIView+NDAutolayoutUtils.mm"; sourceTree = "<group>"; };
-		939CFF2525B7F22758EE17758C95B31A /* Log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Log.h; path = NDLog/Log.h; sourceTree = "<group>"; };
-		96BC4D64F0061DAD944F7489F1013455 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9D681BE32A4129E6E67226D0A396A7B4 /* NDUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NDUtils-umbrella.h"; sourceTree = "<group>"; };
+		8CC04C91A24F5AC25F23721F1069050F /* NDUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NDUtils.h; path = NDUtils/NDUtils.h; sourceTree = "<group>"; };
+		8E28F6B434CC2E0A59FC480E34AF3CE1 /* NDUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NDUtils-umbrella.h"; sourceTree = "<group>"; };
+		8E4650D95599D095769463D6BD3E368D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7FF8AA428CA17322577DBBEEFD4CFD0 /* UIView+NDAutolayoutUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+NDAutolayoutUtils.h"; path = "NDAutolayoutUtils/UIView+NDAutolayoutUtils.h"; sourceTree = "<group>"; };
+		A03343E2249094186391375319D7EDD2 /* NDUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NDUtils-Info.plist"; sourceTree = "<group>"; };
+		A0D9CA4EE186426799ABDAEA151FEE1B /* Foundation+NDUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Foundation+NDUtils.h"; path = "NDUtils/Foundation/Foundation+NDUtils.h"; sourceTree = "<group>"; };
+		A6F07DC59B9F9FB20FE5C95B7BD2B2C8 /* NDAutolayoutUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NDAutolayoutUtils-prefix.pch"; sourceTree = "<group>"; };
 		ACFEE92128C6090F7F94350DD7DC67C6 /* Pods-NDAutolayoutUtils_Swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NDAutolayoutUtils_Swift-acknowledgements.plist"; sourceTree = "<group>"; };
-		B1C84C88454B1687006859E03D114E77 /* NDAutolayoutUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NDAutolayoutUtils-Info.plist"; sourceTree = "<group>"; };
-		B3542EF158451272472C8AC5FE5C13EC /* NDLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NDLog.release.xcconfig; sourceTree = "<group>"; };
+		AE8E6D6526A07CADB2F2788ED4DE9FED /* NSString+NDUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+NDUtils.h"; path = "NDUtils/Foundation/NSString+NDUtils.h"; sourceTree = "<group>"; };
+		AEE192BF786EAF8D874FCE5794B118C4 /* NDAutolayoutUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NDAutolayoutUtils.release.xcconfig; sourceTree = "<group>"; };
+		B17EC8648861AE71070AF795F5643317 /* NSString+NDUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "NSString+NDUtils.mm"; path = "NDUtils/Foundation/NSString+NDUtils.mm"; sourceTree = "<group>"; };
+		B404938C4D7115260BC67446E1B6643A /* NDUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NDUtils-dummy.m"; sourceTree = "<group>"; };
 		B598F60F8945D3AB5679515628DCDABA /* NDAutolayoutUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NDAutolayoutUtils.framework; path = NDAutolayoutUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE318BD01CE0848EA52CD9AB0BFC1FD3 /* NSObject+NDUtils_Foundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+NDUtils_Foundation.h"; path = "NDUtils/Foundation/NSObject+NDUtils_Foundation.h"; sourceTree = "<group>"; };
-		BEFBD8C302508941924120DC3EFEF685 /* NDUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NDUtils-dummy.m"; sourceTree = "<group>"; };
-		C1D0C269B989D8CBD74B98A4CE8CF30C /* NDLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NDLog-Info.plist"; sourceTree = "<group>"; };
+		B5E421B8FF9E2EAFE3F5C2C9478B9C7D /* NDLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NDLog-prefix.pch"; sourceTree = "<group>"; };
+		B6CACF61F40EBBAE2074C0F47E5D1B17 /* NSObject+NDUtils_Foundation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "NSObject+NDUtils_Foundation.mm"; path = "NDUtils/Foundation/NSObject+NDUtils_Foundation.mm"; sourceTree = "<group>"; };
+		B931ED765B8672BF871D6D8E49D61956 /* NDLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NDLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF0369A8D5917D3127207850DD4CB15F /* UIView+NDAutolayoutUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "UIView+NDAutolayoutUtils.mm"; path = "NDAutolayoutUtils/UIView+NDAutolayoutUtils.mm"; sourceTree = "<group>"; };
+		C02D83D6471A869B656E3957B5B7EF0C /* NDLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NDLog-Info.plist"; sourceTree = "<group>"; };
 		C2CF6E127990267DFEB3BCCD48AD5FB4 /* NDUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NDUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F8F890A16E1E78BC714B561F9BA63F /* Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests.modulemap"; sourceTree = "<group>"; };
-		C4E020A89A043F7315C15A110CE5552F /* UILayoutGuide+NDAutolayoutUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "UILayoutGuide+NDAutolayoutUtils.mm"; path = "NDAutolayoutUtils/UILayoutGuide+NDAutolayoutUtils.mm"; sourceTree = "<group>"; };
+		C403E688AB1DF9C409197316B6407B8B /* NDLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NDLog.debug.xcconfig; sourceTree = "<group>"; };
 		C4EE4C3FB36DE13C60EAFCCB0FF7E9BC /* Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests-Info.plist"; sourceTree = "<group>"; };
 		CA85F22833404BCFF03D46410CDA210D /* Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB69475FB517A587A2F52F4473C20352 /* Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CDF63DD8FD522FA265D987893CAEA847 /* NDLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NDLog-umbrella.h"; sourceTree = "<group>"; };
-		DB241FFCB03CB2D8476CF64389F3EDAF /* NDAutolayoutUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NDAutolayoutUtils.release.xcconfig; sourceTree = "<group>"; };
-		DE7ADA721A8D616DC481D07737117D04 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CC06DCFD28AE7613725C302D53F1F289 /* NDLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NDLog.modulemap; sourceTree = "<group>"; };
+		CC43A951283C82F75DBC016ACD9CCD11 /* NSFastEnumeration+NDUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFastEnumeration+NDUtils.h"; path = "NDUtils/Foundation/NSFastEnumeration+NDUtils.h"; sourceTree = "<group>"; };
+		D8A580D23ECCBA03FBEDC76A3237E52A /* Log.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = Log.mm; path = NDLog/Log.mm; sourceTree = "<group>"; };
+		DA7CFF651104AB417C0492C531D04D70 /* Log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Log.h; path = NDLog/Log.h; sourceTree = "<group>"; };
+		DB6CAF5B029C8ABB7D94309159FD4653 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E12286A9CADB7A738506D81724CBEFC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E2FCF11620BAE31F2CA729F382E03DC3 /* Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests-umbrella.h"; sourceTree = "<group>"; };
+		E44358E51B0AD588BC0DE1C679815CD5 /* NDNSLayoutConstraintItem.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = NDNSLayoutConstraintItem.mm; path = NDAutolayoutUtils/NDNSLayoutConstraintItem.mm; sourceTree = "<group>"; };
+		E6639F1F109FAB457A5F6A3464B069AD /* NDAutolayoutUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NDAutolayoutUtils-umbrella.h"; sourceTree = "<group>"; };
 		E6F400B45D81AF31D9A1AD18677C4CEE /* Pods_NDAutolayoutUtils_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NDAutolayoutUtils_Swift.framework; path = "Pods-NDAutolayoutUtils_Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C4E98B683AD316C53F3F72B684F130 /* Pods-NDAutolayoutUtils_Swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NDAutolayoutUtils_Swift-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EA19982AAD1FD0DA0C563FFECAE1B1CB /* NDLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NDLog-prefix.pch"; sourceTree = "<group>"; };
-		F49C92BBB0F1ADB30A567DB440310E34 /* NDAutolayoutUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NDAutolayoutUtils-dummy.m"; sourceTree = "<group>"; };
-		F96FECC4D15952165A633D7380B0C931 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F9A92889D4D4369518873E1714FFE83A /* NDUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NDUtils-prefix.pch"; sourceTree = "<group>"; };
-		FA4C32B4BE481DF3DF502F5C8FBC78D0 /* NDAutolayoutUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NDAutolayoutUtils-prefix.pch"; sourceTree = "<group>"; };
-		FC8F4104359FFA9F2F1160A20A586612 /* NDUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NDUtils.release.xcconfig; sourceTree = "<group>"; };
-		FD90170B4C5B67834AED1C24EFC4C60E /* VisualConstraintUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = VisualConstraintUtils.mm; path = NDAutolayoutUtils/VisualConstraintUtils.mm; sourceTree = "<group>"; };
-		FFD7EAC6942DE4645C3FC96A863431C2 /* NDUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NDUtils.modulemap; sourceTree = "<group>"; };
+		EE85F42437A686D801C6188FB8E49762 /* NDAutolayoutUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NDAutolayoutUtils.modulemap; sourceTree = "<group>"; };
+		EEFF7539817C6273486F4E47691F1A09 /* NDAutolayoutUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NDAutolayoutUtils.h; path = NDAutolayoutUtils/NDAutolayoutUtils.h; sourceTree = "<group>"; };
+		F3A3B26CD54CF1735F605D164868BA59 /* NDNSLayoutConstraintItemUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = NDNSLayoutConstraintItemUtils.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		59B25D85A807A4B212C7316F9AC9BC1A /* Frameworks */ = {
+		210BB5013EECC4C3DC3E0E068B985966 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC5CDFDCBE1791285A8DF2B25677A46F /* Foundation.framework in Frameworks */,
+				C004A7A6A09A8E51B695734917B18C54 /* Foundation.framework in Frameworks */,
+				66D45A1431C7C572D853FA84D76DBA36 /* NDLog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,23 +220,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81A8F2EA87C7AFE0C24B5D63B8C8A062 /* Frameworks */ = {
+		62F7343046A390A869C85CD407E8BE6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8C871D0BFA5726D250AAC67DF92EEEE /* Foundation.framework in Frameworks */,
-				73833B833FCFCD3BF4BA64D4BEB0BE44 /* NDLog.framework in Frameworks */,
+				5DED01B1BCA0004DEEA22C94159BA936 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAD1D1506266DB65410CC1E5D9D57EEA /* Frameworks */ = {
+		754190A9EBA49F3C668CCC7F924F71A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E0BFAA2B16D59F1354276045BC53A3 /* Foundation.framework in Frameworks */,
-				785CBB388346816DCE59521A385BDCF0 /* NDLog.framework in Frameworks */,
-				FA4AD5F7B056C5618A4F23EF64B988F8 /* NDUtils.framework in Frameworks */,
-				9A739F740468E97DD9DFA93A50A016CE /* UIKit.framework in Frameworks */,
+				2B3B433B2D0971F443181918F33FE437 /* Foundation.framework in Frameworks */,
+				CF4D740BE7140A5C14AF0FA62D858381 /* NDLog.framework in Frameworks */,
+				FE0620721B120C5B52332809F7CF2697 /* NDUtils.framework in Frameworks */,
+				9D341EF61A684D6EEB73A0E6A9B0070A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,35 +250,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A57F3EFB6C642B8BFFFEF337E71F905 /* NDAutolayoutUtils */ = {
+		07E57DC713CBBE9D600A7062E44DDCAD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				66415E342754A9BDEAB19EA586B501F0 /* ClassicalConstraintUtils.h */,
-				14A3C3FC93E3CDE4B8BE23023E1921F6 /* ClassicalConstraintUtils.mm */,
-				45D2DEE05140DAC795968DDD0AA1E573 /* NDAutolayoutUtils.h */,
-				77C0EA531DCCD4B1C3B106AE9DC446FA /* NDCommonLayoutGuidesContainer.h */,
-				003D5F8A0805800A97BA4AAFBDFC95CD /* UILayoutGuide+NDAutolayoutUtils.h */,
-				C4E020A89A043F7315C15A110CE5552F /* UILayoutGuide+NDAutolayoutUtils.mm */,
-				A7FF8AA428CA17322577DBBEEFD4CFD0 /* UIView+NDAutolayoutUtils.h */,
-				9303DCD884095FB033E436DF34790AA3 /* UIView+NDAutolayoutUtils.mm */,
-				5D55B7196202B15176DFA35AC9654531 /* UIViewController+NDAutolayoutUtils.h */,
-				5D337006C4EDD5B45311D79F38C43B31 /* UIViewController+NDAutolayoutUtils.mm */,
-				85F524561736E62FECC96B78C2204205 /* VisualConstraintUtils.h */,
-				FD90170B4C5B67834AED1C24EFC4C60E /* VisualConstraintUtils.mm */,
-				F8540ADD9024EF0B7406E2243919FC99 /* Pod */,
-				E684907EADAEEC31C92BB7CB1197968E /* Privates */,
-				E0A4401F6A3368A63438854EF00E466D /* Support Files */,
+				EE85F42437A686D801C6188FB8E49762 /* NDAutolayoutUtils.modulemap */,
+				1E6F0797CB6914A3C94E25A35E87E404 /* NDAutolayoutUtils-dummy.m */,
+				43C08044B0C564E44120A1A896E39BA3 /* NDAutolayoutUtils-Info.plist */,
+				A6F07DC59B9F9FB20FE5C95B7BD2B2C8 /* NDAutolayoutUtils-prefix.pch */,
+				E6639F1F109FAB457A5F6A3464B069AD /* NDAutolayoutUtils-umbrella.h */,
+				09400D66FE5E60531D36BBB9F214E52F /* NDAutolayoutUtils.debug.xcconfig */,
+				AEE192BF786EAF8D874FCE5794B118C4 /* NDAutolayoutUtils.release.xcconfig */,
 			);
-			name = NDAutolayoutUtils;
-			path = ../../NDAutolayoutUtils;
+			name = "Support Files";
+			path = "../NDAutolayoutUtils_Swift/Pods/Target Support Files/NDAutolayoutUtils";
 			sourceTree = "<group>";
 		};
-		3B4BBB18055B849A9A919410E7852A0A /* Pod */ = {
+		28A8A470456F73A28BBE623652C365B7 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0CFCFDDFC08560DE56CDCD0635033DF9 /* LICENSE */,
-				634F4DA6AEE95BE25B169918C8FBE837 /* NDLog.podspec */,
-				DE7ADA721A8D616DC481D07737117D04 /* README.md */,
+				8E4650D95599D095769463D6BD3E368D /* LICENSE */,
+				878A425543093EDDC8959B4B34B3B8EB /* NDUtils.podspec */,
+				DB6CAF5B029C8ABB7D94309159FD4653 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		48199B9BA3B7EF6CC406E623EA6DB2C9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				80CAEC855C6CD042327876F68D81DB8C /* LICENSE */,
+				65695330A1D8FCA5F3A0FDF482920A6A /* NDAutolayoutUtils.podspec */,
+				0883E45C21DE0E52108E743493C4F5C2 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -302,69 +302,75 @@
 			path = "Target Support Files/Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests";
 			sourceTree = "<group>";
 		};
-		547D064AE5F08DF519D019FCE716C0C2 /* Pod */ = {
+		5385DC5A27FE7BB080A3E7003FA0EB8D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F96FECC4D15952165A633D7380B0C931 /* LICENSE */,
-				60B1C2FA549AD1F7DDE34A153D636FFC /* NDUtils.podspec */,
-				68633B71A3CC36FCCF12DFFF52D54AE0 /* README.md */,
+				7496ED798B0C3E85B5D793817E585F02 /* LICENSE */,
+				B931ED765B8672BF871D6D8E49D61956 /* NDLog.podspec */,
+				175F933051D1FE3F53224E35D539A976 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		558DFF6E843E5340A388144766A9DAB7 /* NDUtils */ = {
+		57FE15A3E0240142FE06881023608407 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A683554EEB159621ABD5F35DB553B3B2 /* Core */,
-				EC7BB5CAA3C55C2F71E83CF900E28813 /* Foundation */,
-				547D064AE5F08DF519D019FCE716C0C2 /* Pod */,
-				F7BB4D10A2BD13644659E5AFC184CCF0 /* Support Files */,
+				D9F75240B298C9B9F6F05F443CD72A80 /* NDAutolayoutUtils */,
+				B550F0742E1D6674AD40C611790BC67D /* NDLog */,
+				A59AB6CDFF0E61291BAF93E14BE57EDE /* NDUtils */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9349DC887472E0F4233E540DB50B71FA /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				A0D9CA4EE186426799ABDAEA151FEE1B /* Foundation+NDUtils.h */,
+				CC43A951283C82F75DBC016ACD9CCD11 /* NSFastEnumeration+NDUtils.h */,
+				35A9B7FDA3C994A1048444792ED0DACF /* NSFastEnumeration+NDUtils.mm */,
+				3CFDAEE83D768ED0880D952278E72C1A /* NSObject+NDUtils_Foundation.h */,
+				B6CACF61F40EBBAE2074C0F47E5D1B17 /* NSObject+NDUtils_Foundation.mm */,
+				AE8E6D6526A07CADB2F2788ED4DE9FED /* NSString+NDUtils.h */,
+				B17EC8648861AE71070AF795F5643317 /* NSString+NDUtils.mm */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		A59AB6CDFF0E61291BAF93E14BE57EDE /* NDUtils */ = {
+			isa = PBXGroup;
+			children = (
+				FB8047EBB14F568520DCA63589B3810E /* Core */,
+				9349DC887472E0F4233E540DB50B71FA /* Foundation */,
+				28A8A470456F73A28BBE623652C365B7 /* Pod */,
+				C26B9DB77AF39AEF92A2C26A98B63DF3 /* Support Files */,
 			);
 			name = NDUtils;
 			path = ../../NDUtils;
 			sourceTree = "<group>";
 		};
-		784CA92F3C31D930EC30AC5C3A079A1D /* Development Pods */ = {
+		AC2BCFE29E4F84AE143098133C2DDCDF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1A57F3EFB6C642B8BFFFEF337E71F905 /* NDAutolayoutUtils */,
-				A774CB8B4556C81040B5D6D7F32FEB3C /* NDLog */,
-				558DFF6E843E5340A388144766A9DAB7 /* NDUtils */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		90D6EF0406C46B9AE5362D931900B7E5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				429FD50649A820BB81328C59AAAB5A7D /* NDLog.modulemap */,
-				662EA79EC47515DF0F8FE610BD9D2ACD /* NDLog-dummy.m */,
-				C1D0C269B989D8CBD74B98A4CE8CF30C /* NDLog-Info.plist */,
-				EA19982AAD1FD0DA0C563FFECAE1B1CB /* NDLog-prefix.pch */,
-				CDF63DD8FD522FA265D987893CAEA847 /* NDLog-umbrella.h */,
-				830135913C89557FFEC64372D408D0EC /* NDLog.debug.xcconfig */,
-				B3542EF158451272472C8AC5FE5C13EC /* NDLog.release.xcconfig */,
+				CC06DCFD28AE7613725C302D53F1F289 /* NDLog.modulemap */,
+				1BB4AEEF93F7B35A0DED81B39DB26C97 /* NDLog-dummy.m */,
+				C02D83D6471A869B656E3957B5B7EF0C /* NDLog-Info.plist */,
+				B5E421B8FF9E2EAFE3F5C2C9478B9C7D /* NDLog-prefix.pch */,
+				6EE97D4362A7A40689232408A9C9DCDD /* NDLog-umbrella.h */,
+				C403E688AB1DF9C409197316B6407B8B /* NDLog.debug.xcconfig */,
+				7DC5BA2BEB4F8277CF47229509377B18 /* NDLog.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../NDAutolayoutUtils_Swift/Pods/Target Support Files/NDLog";
 			sourceTree = "<group>";
 		};
-		A683554EEB159621ABD5F35DB553B3B2 /* Core */ = {
+		B550F0742E1D6674AD40C611790BC67D /* NDLog */ = {
 			isa = PBXGroup;
 			children = (
-				88F200C07B79DD6DB3E3089C9AEF112E /* NDUtils.h */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		A774CB8B4556C81040B5D6D7F32FEB3C /* NDLog */ = {
-			isa = PBXGroup;
-			children = (
-				939CFF2525B7F22758EE17758C95B31A /* Log.h */,
-				2D4BF1FC4DFC880B3B2072EABAFAF669 /* Log.mm */,
-				1664B342D4CBD217CCB3B965E5BD3340 /* NDLog.h */,
-				3B4BBB18055B849A9A919410E7852A0A /* Pod */,
-				90D6EF0406C46B9AE5362D931900B7E5 /* Support Files */,
+				DA7CFF651104AB417C0492C531D04D70 /* Log.h */,
+				D8A580D23ECCBA03FBEDC76A3237E52A /* Log.mm */,
+				1CC8688802BA67C0977CE6FA66CB01C5 /* NDLog.h */,
+				5385DC5A27FE7BB080A3E7003FA0EB8D /* Pod */,
+				AC2BCFE29E4F84AE143098133C2DDCDF /* Support Files */,
 			);
 			name = NDLog;
 			path = ../../NDLog;
@@ -380,15 +386,52 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C26B9DB77AF39AEF92A2C26A98B63DF3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03CF1174E138C6E1B32139E0207FA52E /* NDUtils.modulemap */,
+				B404938C4D7115260BC67446E1B6643A /* NDUtils-dummy.m */,
+				A03343E2249094186391375319D7EDD2 /* NDUtils-Info.plist */,
+				7D3EF56188DA48565973B1922F522EB5 /* NDUtils-prefix.pch */,
+				8E28F6B434CC2E0A59FC480E34AF3CE1 /* NDUtils-umbrella.h */,
+				643D793C3D3D234980B3237D7C5F3527 /* NDUtils.debug.xcconfig */,
+				22A7815ABF150FDEB2A6E3367B5F5123 /* NDUtils.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../NDAutolayoutUtils_Swift/Pods/Target Support Files/NDUtils";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				784CA92F3C31D930EC30AC5C3A079A1D /* Development Pods */,
+				57FE15A3E0240142FE06881023608407 /* Development Pods */,
 				C138B37E256D06D51FFB5AEEF680BA4B /* Frameworks */,
 				DBAB9EE5DF2D94AF4449CE32D714CA76 /* Products */,
 				E0C3675D06E21C9BF617CE3CCB63E733 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D9F75240B298C9B9F6F05F443CD72A80 /* NDAutolayoutUtils */ = {
+			isa = PBXGroup;
+			children = (
+				EEFF7539817C6273486F4E47691F1A09 /* NDAutolayoutUtils.h */,
+				3D2AFDC771DBCF208B79E80BF6D1AD03 /* NDClassicalConstraintUtils.h */,
+				7653839A45097BE88D09DCD3AC2E9C1B /* NDClassicalConstraintUtils.mm */,
+				38F787D2ABDF1FCE723268D6E696D351 /* NDNSLayoutConstraintItem.h */,
+				E44358E51B0AD588BC0DE1C679815CD5 /* NDNSLayoutConstraintItem.mm */,
+				0CD33A40A1E15FA1F989ACA7B4B85C4C /* NDVisualConstraintUtils.h */,
+				03505AC8CE64F8DACAE41BCA6AD849F8 /* NDVisualConstraintUtils.mm */,
+				0FCC6A937AC6E5C023A3D7430A916992 /* UIView+NDAutolayoutUtils.h */,
+				BF0369A8D5917D3127207850DD4CB15F /* UIView+NDAutolayoutUtils.mm */,
+				756EF297D550FFF57D9979C296008254 /* UIViewController+NDAutolayoutUtils.h */,
+				75A4C1BA2BA08D59276F9F1C63CEC8C4 /* UIViewController+NDAutolayoutUtils.mm */,
+				48199B9BA3B7EF6CC406E623EA6DB2C9 /* Pod */,
+				F3C08755E73FF66B30AB18003BFC0BE3 /* Privates */,
+				07E57DC713CBBE9D600A7062E44DDCAD /* Support Files */,
+			);
+			name = NDAutolayoutUtils;
+			path = ../../NDAutolayoutUtils;
 			sourceTree = "<group>";
 		};
 		DBAB9EE5DF2D94AF4449CE32D714CA76 /* Products */ = {
@@ -403,21 +446,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E0A4401F6A3368A63438854EF00E466D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				508F6CF05F46DF164E97B1DE5DF979C6 /* NDAutolayoutUtils.modulemap */,
-				F49C92BBB0F1ADB30A567DB440310E34 /* NDAutolayoutUtils-dummy.m */,
-				B1C84C88454B1687006859E03D114E77 /* NDAutolayoutUtils-Info.plist */,
-				FA4C32B4BE481DF3DF502F5C8FBC78D0 /* NDAutolayoutUtils-prefix.pch */,
-				15B272CB3382DD9AD550E271A8A10B73 /* NDAutolayoutUtils-umbrella.h */,
-				8293DA0477AE088C81AF7D58195F529E /* NDAutolayoutUtils.debug.xcconfig */,
-				DB241FFCB03CB2D8476CF64389F3EDAF /* NDAutolayoutUtils.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../NDAutolayoutUtils_Swift/Pods/Target Support Files/NDAutolayoutUtils";
-			sourceTree = "<group>";
-		};
 		E0C3675D06E21C9BF617CE3CCB63E733 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -425,30 +453,6 @@
 				4E21B03CB129CBF7D8F01329A5C021A1 /* Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		E684907EADAEEC31C92BB7CB1197968E /* Privates */ = {
-			isa = PBXGroup;
-			children = (
-				28D9F9E882D71D75BD4CE1DDB96D1973 /* NDCommonLayoutGuidesContainerUtils.h */,
-				156CC87E46D38FE6BB84010198458F6F /* NDCommonLayoutGuidesContainerUtils.mm */,
-			);
-			name = Privates;
-			path = NDAutolayoutUtils/Privates;
-			sourceTree = "<group>";
-		};
-		EC7BB5CAA3C55C2F71E83CF900E28813 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				4B17969C73D16749289AB16047D3A0F8 /* Foundation+NDUtils.h */,
-				4120C4FC3CDB0332E1EFD1D44348A727 /* NSFastEnumeration+NDUtils.h */,
-				8D5C6DEFF7E7F26B760F3A857DE3D609 /* NSFastEnumeration+NDUtils.mm */,
-				BE318BD01CE0848EA52CD9AB0BFC1FD3 /* NSObject+NDUtils_Foundation.h */,
-				2C065A74356EB8138037C5425BCE75BB /* NSObject+NDUtils_Foundation.mm */,
-				2B850EB630E3AF74ADDE23683761615F /* NSString+NDUtils.h */,
-				873617431ED1AD67D92FAB75FED79698 /* NSString+NDUtils.mm */,
-			);
-			name = Foundation;
 			sourceTree = "<group>";
 		};
 		F00B4495D87205A0CF63606EC755F8D3 /* Pods-NDAutolayoutUtils_Swift */ = {
@@ -467,6 +471,16 @@
 			path = "Target Support Files/Pods-NDAutolayoutUtils_Swift";
 			sourceTree = "<group>";
 		};
+		F3C08755E73FF66B30AB18003BFC0BE3 /* Privates */ = {
+			isa = PBXGroup;
+			children = (
+				19F42468706570126E12BB731C67784D /* NDNSLayoutConstraintItemUtils.h */,
+				F3A3B26CD54CF1735F605D164868BA59 /* NDNSLayoutConstraintItemUtils.mm */,
+			);
+			name = Privates;
+			path = NDAutolayoutUtils/Privates;
+			sourceTree = "<group>";
+		};
 		F3D4852DDA51A44849611BCA00DF5D23 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -476,29 +490,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F7BB4D10A2BD13644659E5AFC184CCF0 /* Support Files */ = {
+		FB8047EBB14F568520DCA63589B3810E /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				FFD7EAC6942DE4645C3FC96A863431C2 /* NDUtils.modulemap */,
-				BEFBD8C302508941924120DC3EFEF685 /* NDUtils-dummy.m */,
-				3055D245559A9C1AB3646CDDA531B633 /* NDUtils-Info.plist */,
-				F9A92889D4D4369518873E1714FFE83A /* NDUtils-prefix.pch */,
-				9D681BE32A4129E6E67226D0A396A7B4 /* NDUtils-umbrella.h */,
-				797D9CB28A6AC4AD2BECDCC852D1D5E5 /* NDUtils.debug.xcconfig */,
-				FC8F4104359FFA9F2F1160A20A586612 /* NDUtils.release.xcconfig */,
+				8CC04C91A24F5AC25F23721F1069050F /* NDUtils.h */,
 			);
-			name = "Support Files";
-			path = "../NDAutolayoutUtils_Swift/Pods/Target Support Files/NDUtils";
-			sourceTree = "<group>";
-		};
-		F8540ADD9024EF0B7406E2243919FC99 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				53AF5B04A004D2007B029A2434E59ECF /* LICENSE */,
-				26D0A99AFE1A5B0AD4B8289E4B1D9D1B /* NDAutolayoutUtils.podspec */,
-				96BC4D64F0061DAD944F7489F1013455 /* README.md */,
-			);
-			name = Pod;
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -512,19 +509,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7681FC68FF1F57E490092D6BAB96DD7C /* Headers */ = {
+		1DC92B3468666A62425CAED4F0D8D499 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29864A44E6B3F83427CEE840E917C52F /* ClassicalConstraintUtils.h in Headers */,
-				5130DCAB2826C8F278E5599CF316F1CF /* NDAutolayoutUtils-umbrella.h in Headers */,
-				B82549C91D13EB5DECBCC269B97A1E34 /* NDAutolayoutUtils.h in Headers */,
-				2B5903D918F09D0C8A235E19938CB38F /* NDCommonLayoutGuidesContainer.h in Headers */,
-				DFA5BCE8A12E8BF10DFB39B7606DE7F0 /* NDCommonLayoutGuidesContainerUtils.h in Headers */,
-				FF99B038E322FF1D6FA4448888093413 /* UILayoutGuide+NDAutolayoutUtils.h in Headers */,
-				62A7C31491074018CBE0E7B30184CC62 /* UIView+NDAutolayoutUtils.h in Headers */,
-				BABD4CECCE7F95BBD0342C6D09841A7F /* UIViewController+NDAutolayoutUtils.h in Headers */,
-				079C1B0040A5F49763BBF6A68C9E1FDC /* VisualConstraintUtils.h in Headers */,
+				6DE7B6266298A453953EC2C19F54E9FB /* Log.h in Headers */,
+				81282387AA0C37CA57AE0BB3A92780F6 /* NDLog-umbrella.h in Headers */,
+				B2BDB273DC3FD2C5CA65118ABAE6E60F /* NDLog.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8F856520D0C328CFDD8CCDEEE0FC5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E590809AA31AB5876080651779E1AA4 /* NDAutolayoutUtils-umbrella.h in Headers */,
+				18CA1E188557BDCAEB5F7B4E3065DA21 /* NDAutolayoutUtils.h in Headers */,
+				435035B49EB5D090C27F5041153329D7 /* NDClassicalConstraintUtils.h in Headers */,
+				B695D9DE9B068F08E716FD79B8038E48 /* NDNSLayoutConstraintItem.h in Headers */,
+				89498748C135DFAF28AB96A8F8689394 /* NDNSLayoutConstraintItemUtils.h in Headers */,
+				2F86B73C13BEA58313EC67BF603F98B4 /* NDVisualConstraintUtils.h in Headers */,
+				8AAFD017BD5C7B8D44DDACAB20BBEDC7 /* UIView+NDAutolayoutUtils.h in Headers */,
+				E8C36CCC27D5F5DEB0AFE36C0E010536 /* UIViewController+NDAutolayoutUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,26 +542,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85B003066096BA0C492ACD805317B284 /* Headers */ = {
+		84FD2A0A69DBDE3F398B57344669530D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E27663BD32DCF6D639269681D91A20D0 /* Foundation+NDUtils.h in Headers */,
-				C2D9B2B18D06A89E3EF0E5556BB52620 /* NDUtils-umbrella.h in Headers */,
-				C11A0B33FFC19CDA2700290815A6F9C6 /* NDUtils.h in Headers */,
-				9B7C82AB2E54C15A21AF272D48F6855C /* NSFastEnumeration+NDUtils.h in Headers */,
-				2FCC049530C30961B2EE87FDC4D2AF8A /* NSObject+NDUtils_Foundation.h in Headers */,
-				05BEB4D38CAEC54FABA5E4C8908DF910 /* NSString+NDUtils.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB3A380028288BB3859997604D5F1D03 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9E990DD42C501824AE153B6973349CD /* Log.h in Headers */,
-				BE8795AD53CE128FE876737F26AD8AF1 /* NDLog-umbrella.h in Headers */,
-				1E52FFB0CD97D16706526309F82A9CF5 /* NDLog.h in Headers */,
+				BEF5CF0BA38C7244D587B8A108DF9A57 /* Foundation+NDUtils.h in Headers */,
+				1C9BEB55E28FAA1B604528465CA409F6 /* NDUtils-umbrella.h in Headers */,
+				3A08010426A4DF09CF6D268EBF550144 /* NDUtils.h in Headers */,
+				222DDE24CB1BD333BA6DB853C6564028 /* NSFastEnumeration+NDUtils.h in Headers */,
+				9455928EF689948EBAF1F7B51888AAF8 /* NSObject+NDUtils_Foundation.h in Headers */,
+				246283F51BD7EFDC5C24BEB85A37BCDA /* NSString+NDUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,18 +560,18 @@
 /* Begin PBXNativeTarget section */
 		2414BB4D999B6302D97A16214342DDFF /* NDAutolayoutUtils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 879B5695E3C5E502B0EECCB2A2BFC615 /* Build configuration list for PBXNativeTarget "NDAutolayoutUtils" */;
+			buildConfigurationList = 51350298623D22B12DECF4DA97733538 /* Build configuration list for PBXNativeTarget "NDAutolayoutUtils" */;
 			buildPhases = (
-				7681FC68FF1F57E490092D6BAB96DD7C /* Headers */,
-				B65C97128AA7E7129A920F9225E8F851 /* Sources */,
-				AAD1D1506266DB65410CC1E5D9D57EEA /* Frameworks */,
-				529719521C31486BBBCFB3A5BF4A780D /* Resources */,
+				6E8F856520D0C328CFDD8CCDEEE0FC5D /* Headers */,
+				E289AFC2EC69166A77C5FFA326C96FAD /* Sources */,
+				754190A9EBA49F3C668CCC7F924F71A4 /* Frameworks */,
+				AEC707AED77F1C8411AEFD25203E273F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8E1A6C02C0B055C908C8D2BE5ADAEE13 /* PBXTargetDependency */,
-				26655723DCDA554CDE0B67B6B15FDD53 /* PBXTargetDependency */,
+				CFE5F93AB4505EBEAEA093E919A2832F /* PBXTargetDependency */,
+				6047EEF4BF028B117C68CA6DAE9BBDC4 /* PBXTargetDependency */,
 			);
 			name = NDAutolayoutUtils;
 			productName = NDAutolayoutUtils;
@@ -626,12 +622,12 @@
 		};
 		5860BED33EF9D27378704EB0C10FD6C5 /* NDLog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 640E786C3CD3C1814476B73CF69F6A44 /* Build configuration list for PBXNativeTarget "NDLog" */;
+			buildConfigurationList = A0949DEB42872FD6CC41D9014C16F1FC /* Build configuration list for PBXNativeTarget "NDLog" */;
 			buildPhases = (
-				CB3A380028288BB3859997604D5F1D03 /* Headers */,
-				910868FBDC1EA1F0F7117E36DB41B95F /* Sources */,
-				59B25D85A807A4B212C7316F9AC9BC1A /* Frameworks */,
-				C95A0B7399F985E0E47AA15F21375102 /* Resources */,
+				1DC92B3468666A62425CAED4F0D8D499 /* Headers */,
+				0AD16A979B64C64197CFD19F87DA0CFE /* Sources */,
+				62F7343046A390A869C85CD407E8BE6B /* Frameworks */,
+				3CBD9C766DB359A4DECA318E1A590791 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -644,17 +640,17 @@
 		};
 		E743EC9024721B262CA9F180BD3AFF19 /* NDUtils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 12D7C9824824EE527D88B25571484035 /* Build configuration list for PBXNativeTarget "NDUtils" */;
+			buildConfigurationList = DBEC43AEB90A71A0F47DDD487F387212 /* Build configuration list for PBXNativeTarget "NDUtils" */;
 			buildPhases = (
-				85B003066096BA0C492ACD805317B284 /* Headers */,
-				F1500C36186069436F86FB06D7EC14FE /* Sources */,
-				81A8F2EA87C7AFE0C24B5D63B8C8A062 /* Frameworks */,
-				2DD968E847E9F01E55D1B09BAEF5FC02 /* Resources */,
+				84FD2A0A69DBDE3F398B57344669530D /* Headers */,
+				061007F2735252FE84DECAF46B969902 /* Sources */,
+				210BB5013EECC4C3DC3E0E068B985966 /* Frameworks */,
+				F371B6B83953636C4BBE13B8CBE4E691 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CFE057843A2964E1846EE0497AAE0E38 /* PBXTargetDependency */,
+				80FE8ADD376B747E9FDB40306F858D42 /* PBXTargetDependency */,
 			);
 			name = NDUtils;
 			productName = NDUtils;
@@ -693,14 +689,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2DD968E847E9F01E55D1B09BAEF5FC02 /* Resources */ = {
+		3CBD9C766DB359A4DECA318E1A590791 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		529719521C31486BBBCFB3A5BF4A780D /* Resources */ = {
+		AEC707AED77F1C8411AEFD25203E273F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -714,14 +710,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C95A0B7399F985E0E47AA15F21375102 /* Resources */ = {
+		D656DF06C3B9B3E683593AEF367973B1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D656DF06C3B9B3E683593AEF367973B1 /* Resources */ = {
+		F371B6B83953636C4BBE13B8CBE4E691 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -731,12 +727,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		910868FBDC1EA1F0F7117E36DB41B95F /* Sources */ = {
+		061007F2735252FE84DECAF46B969902 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F197CFBF7CF6B86608F6DE3614EF1682 /* Log.mm in Sources */,
-				8FDA9DF6F14341B561F006F35C812BF8 /* NDLog-dummy.m in Sources */,
+				DBD2E68B7FD32115C272933E6A10E5C9 /* NDUtils-dummy.m in Sources */,
+				71DE607B14A968EF51D4D1ED611FBE8E /* NSFastEnumeration+NDUtils.mm in Sources */,
+				C62E7C720FD9D38AD1D6D1BEB1276C80 /* NSObject+NDUtils_Foundation.mm in Sources */,
+				D6882E69ECCDEE1181F29AF749FA2776 /* NSString+NDUtils.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD16A979B64C64197CFD19F87DA0CFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2A84BAB6D14DB263AE0B2C96AF15C2 /* Log.mm in Sources */,
+				21AA7846458DF7C9F3FA1FD43EDA0E25 /* NDLog-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -748,20 +755,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B65C97128AA7E7129A920F9225E8F851 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C4F07CEDA048E4A7024AF691BD739B80 /* ClassicalConstraintUtils.mm in Sources */,
-				99307F365F3E4AF621673BD13BE534C5 /* NDAutolayoutUtils-dummy.m in Sources */,
-				1B8258F0428F570A7C9C91A4C48E3C4C /* NDCommonLayoutGuidesContainerUtils.mm in Sources */,
-				DF84C9EA72FD772AEC14F40AD879F9BD /* UILayoutGuide+NDAutolayoutUtils.mm in Sources */,
-				FACA1644906518E38CA2C43B82500D62 /* UIView+NDAutolayoutUtils.mm in Sources */,
-				3EE208EDA64CDDA9459895A0C5651315 /* UIViewController+NDAutolayoutUtils.mm in Sources */,
-				0E4E80AA320BD5DAF831843258A82AC4 /* VisualConstraintUtils.mm in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BCEA202C0F07EF6ECF63E1653A85E1E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -770,14 +763,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1500C36186069436F86FB06D7EC14FE /* Sources */ = {
+		E289AFC2EC69166A77C5FFA326C96FAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFFE2F17E5DA24079760E5BDF00FB0D4 /* NDUtils-dummy.m in Sources */,
-				81D71A2AEAD94CC2F0DA1329EC4D61E4 /* NSFastEnumeration+NDUtils.mm in Sources */,
-				25881C07AEE590D4AFCCB047F6C3A7C2 /* NSObject+NDUtils_Foundation.mm in Sources */,
-				033E6B8D5E7CEA48F15113DC14CE0E7E /* NSString+NDUtils.mm in Sources */,
+				127A8E6DC516EDABF313F6B3E369B2CC /* NDAutolayoutUtils-dummy.m in Sources */,
+				DD21D52F758CDB69D715B30F72DADB0E /* NDClassicalConstraintUtils.mm in Sources */,
+				CFDFA827E713CA034598188C01A31AC6 /* NDNSLayoutConstraintItem.mm in Sources */,
+				3870053BD572C6DAE02B737658EE55EB /* NDNSLayoutConstraintItemUtils.mm in Sources */,
+				87CE3C79E301ABEA6EC9B386B3434E86 /* NDVisualConstraintUtils.mm in Sources */,
+				CEB2F149731F56D4B829F2439B52E946 /* UIView+NDAutolayoutUtils.mm in Sources */,
+				C725D6F20DCEA9BED428BC34F5E43840 /* UIViewController+NDAutolayoutUtils.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -790,17 +786,23 @@
 			target = E743EC9024721B262CA9F180BD3AFF19 /* NDUtils */;
 			targetProxy = 146C1B822AE590DDE67CCB46C6E6FC05 /* PBXContainerItemProxy */;
 		};
-		26655723DCDA554CDE0B67B6B15FDD53 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = NDUtils;
-			target = E743EC9024721B262CA9F180BD3AFF19 /* NDUtils */;
-			targetProxy = 454B2B5415BEDCF89CC678ED5F878E4B /* PBXContainerItemProxy */;
-		};
 		5F549DAB32C7B969C66BFC7B6A3BF574 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NDLog;
 			target = 5860BED33EF9D27378704EB0C10FD6C5 /* NDLog */;
 			targetProxy = 50EED60A678D877B35653A21E538CD54 /* PBXContainerItemProxy */;
+		};
+		6047EEF4BF028B117C68CA6DAE9BBDC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NDUtils;
+			target = E743EC9024721B262CA9F180BD3AFF19 /* NDUtils */;
+			targetProxy = 5A161396A1E36DC52A3647177D5B67D3 /* PBXContainerItemProxy */;
+		};
+		80FE8ADD376B747E9FDB40306F858D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NDLog;
+			target = 5860BED33EF9D27378704EB0C10FD6C5 /* NDLog */;
+			targetProxy = 8B664578EF15E72ED847209DDFB0CBC2 /* PBXContainerItemProxy */;
 		};
 		85C70255C8870EF2DFF02D3D6E183076 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -808,17 +810,11 @@
 			target = 2414BB4D999B6302D97A16214342DDFF /* NDAutolayoutUtils */;
 			targetProxy = 46C035B86D5B63C7ED78022CD79A4229 /* PBXContainerItemProxy */;
 		};
-		8E1A6C02C0B055C908C8D2BE5ADAEE13 /* PBXTargetDependency */ = {
+		CFE5F93AB4505EBEAEA093E919A2832F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NDLog;
 			target = 5860BED33EF9D27378704EB0C10FD6C5 /* NDLog */;
-			targetProxy = A66B4156D4D4E1C0A412C207E6BB1714 /* PBXContainerItemProxy */;
-		};
-		CFE057843A2964E1846EE0497AAE0E38 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = NDLog;
-			target = 5860BED33EF9D27378704EB0C10FD6C5 /* NDLog */;
-			targetProxy = B228379680CAEF7C63E37C0266F36D28 /* PBXContainerItemProxy */;
+			targetProxy = B28E49870243BD72E46F313BB15CA711 /* PBXContainerItemProxy */;
 		};
 		DB788512203E645143D0561EFB27A5E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -841,77 +837,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		22D18A2A1997F59D9E495DCF5B7A05BA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB241FFCB03CB2D8476CF64389F3EDAF /* NDAutolayoutUtils.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NDAutolayoutUtils/NDAutolayoutUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NDAutolayoutUtils/NDAutolayoutUtils-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/NDAutolayoutUtils/NDAutolayoutUtils.modulemap";
-				PRODUCT_MODULE_NAME = NDAutolayoutUtils;
-				PRODUCT_NAME = NDAutolayoutUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		257E8D8B7A679EB76EF0D915D57C4287 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 830135913C89557FFEC64372D408D0EC /* NDLog.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NDLog/NDLog-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NDLog/NDLog-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/NDLog/NDLog.modulemap";
-				PRODUCT_MODULE_NAME = NDLog;
-				PRODUCT_NAME = NDLog;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		50C0D0E487AED0C0FED05FAF2530C722 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 46D610865CC15F10CC0FDC7870B136DB /* Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests.release.xcconfig */;
@@ -950,6 +875,77 @@
 			};
 			name = Release;
 		};
+		56EB10D672E12B9D55176844D9327995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22A7815ABF150FDEB2A6E3367B5F5123 /* NDUtils.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NDUtils/NDUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NDUtils/NDUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NDUtils/NDUtils.modulemap";
+				PRODUCT_MODULE_NAME = NDUtils;
+				PRODUCT_NAME = NDUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59C7B4B79612DE8A281E6F2182E73793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C403E688AB1DF9C409197316B6407B8B /* NDLog.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NDLog/NDLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NDLog/NDLog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NDLog/NDLog.modulemap";
+				PRODUCT_MODULE_NAME = NDLog;
+				PRODUCT_NAME = NDLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		66D49CED3B4AB8A1F38ACEDAE832510F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2FA31B6D8EEEE2C39FFA86FAD7B8F49C /* Pods-NDAutolayoutUtils_Swift.release.xcconfig */;
@@ -981,6 +977,42 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80C49FDA425BF73F92047256110797F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DC5BA2BEB4F8277CF47229509377B18 /* NDLog.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NDLog/NDLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NDLog/NDLog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NDLog/NDLog.modulemap";
+				PRODUCT_MODULE_NAME = NDLog;
+				PRODUCT_NAME = NDLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1112,9 +1144,9 @@
 			};
 			name = Debug;
 		};
-		A152464DC883A60F02A1935D494845E8 /* Release */ = {
+		9A8913F5515FA96DB4E09FD2F3CCC5FA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3542EF158451272472C8AC5FE5C13EC /* NDLog.release.xcconfig */;
+			baseConfigurationReference = 643D793C3D3D234980B3237D7C5F3527 /* NDUtils.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1125,8 +1157,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NDLog/NDLog-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NDLog/NDLog-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/NDUtils/NDUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NDUtils/NDUtils-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1134,9 +1166,44 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/NDLog/NDLog.modulemap";
-				PRODUCT_MODULE_NAME = NDLog;
-				PRODUCT_NAME = NDLog;
+				MODULEMAP_FILE = "Target Support Files/NDUtils/NDUtils.modulemap";
+				PRODUCT_MODULE_NAME = NDUtils;
+				PRODUCT_NAME = NDUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1C18E043E9C7C90A22F298D7811EEBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEE192BF786EAF8D874FCE5794B118C4 /* NDAutolayoutUtils.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NDAutolayoutUtils/NDAutolayoutUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NDAutolayoutUtils/NDAutolayoutUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NDAutolayoutUtils/NDAutolayoutUtils.modulemap";
+				PRODUCT_MODULE_NAME = NDAutolayoutUtils;
+				PRODUCT_NAME = NDAutolayoutUtils;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1185,42 +1252,6 @@
 			};
 			name = Debug;
 		};
-		C706A911166008C218B0D0015F3EFA27 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC8F4104359FFA9F2F1160A20A586612 /* NDUtils.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NDUtils/NDUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NDUtils/NDUtils-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/NDUtils/NDUtils.modulemap";
-				PRODUCT_MODULE_NAME = NDUtils;
-				PRODUCT_NAME = NDUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		CD75D00330735CA233A1C2AD15DF8C00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA85F22833404BCFF03D46410CDA210D /* Pods-NDAutolayoutUtils_Swift-NDAutolayoutUtils_SwiftTests.debug.xcconfig */;
@@ -1258,44 +1289,9 @@
 			};
 			name = Debug;
 		};
-		D8AF366E84536D144D1916A1EADE4136 /* Debug */ = {
+		F051ABFC9AC72577481B16ACEDCCC3D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 797D9CB28A6AC4AD2BECDCC852D1D5E5 /* NDUtils.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NDUtils/NDUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NDUtils/NDUtils-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/NDUtils/NDUtils.modulemap";
-				PRODUCT_MODULE_NAME = NDUtils;
-				PRODUCT_NAME = NDUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E75A8E0CDC3690E9A57C478231053110 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8293DA0477AE088C81AF7D58195F529E /* NDAutolayoutUtils.debug.xcconfig */;
+			baseConfigurationReference = 09400D66FE5E60531D36BBB9F214E52F /* NDAutolayoutUtils.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1331,15 +1327,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		12D7C9824824EE527D88B25571484035 /* Build configuration list for PBXNativeTarget "NDUtils" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8AF366E84536D144D1916A1EADE4136 /* Debug */,
-				C706A911166008C218B0D0015F3EFA27 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1349,20 +1336,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		640E786C3CD3C1814476B73CF69F6A44 /* Build configuration list for PBXNativeTarget "NDLog" */ = {
+		51350298623D22B12DECF4DA97733538 /* Build configuration list for PBXNativeTarget "NDAutolayoutUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				257E8D8B7A679EB76EF0D915D57C4287 /* Debug */,
-				A152464DC883A60F02A1935D494845E8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		879B5695E3C5E502B0EECCB2A2BFC615 /* Build configuration list for PBXNativeTarget "NDAutolayoutUtils" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E75A8E0CDC3690E9A57C478231053110 /* Debug */,
-				22D18A2A1997F59D9E495DCF5B7A05BA /* Release */,
+				F051ABFC9AC72577481B16ACEDCCC3D5 /* Debug */,
+				A1C18E043E9C7C90A22F298D7811EEBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1376,11 +1354,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A0949DEB42872FD6CC41D9014C16F1FC /* Build configuration list for PBXNativeTarget "NDLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59C7B4B79612DE8A281E6F2182E73793 /* Debug */,
+				80C49FDA425BF73F92047256110797F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B811B6A53F15DE3298E8FC7EACED5778 /* Build configuration list for PBXNativeTarget "Pods-NDAutolayoutUtils_Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB8C1D29F421D8F5E59FB7694D17A9D1 /* Debug */,
 				66D49CED3B4AB8A1F38ACEDAE832510F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBEC43AEB90A71A0F47DDD487F387212 /* Build configuration list for PBXNativeTarget "NDUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8913F5515FA96DB4E09FD2F3CCC5FA /* Debug */,
+				56EB10D672E12B9D55176844D9327995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

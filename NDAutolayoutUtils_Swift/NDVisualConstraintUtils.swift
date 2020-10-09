@@ -1,5 +1,5 @@
 //
-//  VisualConstraintUtils.swift
+//  NDVisualConstraintUtils.swift
 //  NDAutolayoutUtils
 //
 //  Created by Nguyen Duc Hiep on 2/25/20.
@@ -8,57 +8,61 @@
 
 import UIKit
 
-/// Applies all |visualConstraints| with |metrics|, |ratios| to views  in |views|
+/// Applies all |visualConstraints| with |metrics|, |ratios| to items  in |items|
+@inlinable
 public func nd_apply(
   visualConstraints: [String]? = nil,
-  views: [String: Any],
+  items: [String: NDNSLayoutConstraintItemProtocol],
   metrics: [String: CGFloat]? = nil,
   ratios: [String: CGFloat]? = nil
 ) {
   __NDApplyVisualConstraintsWithMetricsAndRatios(
-    visualConstraints, views, metrics as [String: NSNumber]?,
+    visualConstraints, items, metrics as [String: NSNumber]?,
     ratios as [String: NSNumber]?)
 }
 
 /// Applies all |visualConstraintWithOptions| with |metrics|, |ratios| to views
 /// in |views|
+@inlinable
 public func nd_apply(
   visualConstraintWithOptions: [String: NSLayoutConstraint.FormatOptions]?,
-  views: [String: Any],
+  items: [String: NDNSLayoutConstraintItemProtocol],
   metrics: [String: CGFloat]? = nil,
   ratios: [String: CGFloat]? = nil
 ) {
   __NDApplyVisualConstraintWithOptionsWithMetricsAndRatios(
     visualConstraintWithOptions?.mapValues { NSNumber(value: $0.rawValue) },
-    views, metrics as [String: NSNumber]?,
+    items, metrics as [String: NSNumber]?,
     ratios as [String: NSNumber]?)
 }
 
 /// Returns constraints based on the visual constraint with options described
 /// with |constraints|, |metrics| and |ratios| to views in  |views|.
+@inlinable
 public func nd_visual(
   constraints: [String]? = nil,
-  views: [String: Any],
+  items: [String: NDNSLayoutConstraintItemProtocol],
   metrics: [String: CGFloat]? = nil,
   ratios: [String: CGFloat]? = nil
 ) -> [NSLayoutConstraint] {
   return __NDVisualConstraintsWithMetricsAndRatios(
-    constraints, views,
+    constraints, items,
     metrics as [String: NSNumber]?,
     ratios as [String: NSNumber]?)
 }
 
 /// Returns constraints based on the visual constraint with options described
 /// with |constraintWithOptions|, |metrics| and |ratios| to views in  |views|.
+@inlinable
 public func nd_visual(
   constraintWithOptions: [String: NSLayoutConstraint.FormatOptions]? = nil,
-  views: [String: Any],
+  items: [String: NDNSLayoutConstraintItemProtocol],
   metrics: [String: CGFloat]? = nil,
   ratios: [String: CGFloat]? = nil
 ) -> [NSLayoutConstraint] {
 
   return __NDVisualConstraintWithOptionsWithMetricsAndRatios(
-    constraintWithOptions?.mapValues { NSNumber(value: $0.rawValue) }, views,
+    constraintWithOptions?.mapValues { NSNumber(value: $0.rawValue) }, items,
     metrics as [String: NSNumber]?,
     ratios as [String: NSNumber]?)
 }

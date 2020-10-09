@@ -1,6 +1,6 @@
 {
   "name": "NDAutolayoutUtils",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "summary": "A small library for autolayout.",
   "description": "NDAutolayoutUtils is a small library for autolayout.",
   "homepage": "https://github.com/hiep-nd/nd-autolayout-utils.git",
@@ -22,7 +22,7 @@
   "requires_arc": true,
   "source": {
     "git": "https://github.com/hiep-nd/nd-autolayout-utils.git",
-    "tag": "Pod-0.0.5"
+    "tag": "Pod-0.0.6"
   },
   "source_files": "NDAutolayoutUtils/**/*.{h,m,mm}",
   "public_header_files": "NDAutolayoutUtils/*.h",
@@ -32,7 +32,7 @@
       "~> 0.0.5"
     ],
     "NDUtils/Foundation": [
-      "~> 0.0.4"
+      "~> 0.0.5"
     ]
   },
   "swift_version": "5.2"
